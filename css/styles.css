@@ -196,14 +196,14 @@ footer {
   color: #fff;
 }
 
-/*.ending {
+.ending {
   background-color: #dfdfdf;
   cursor: initial;
   color: #929292;
   border-color: #929292;
 }
 
-.control-buttons {
+/*.control-buttons {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
