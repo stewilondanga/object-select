@@ -218,14 +218,14 @@ footer {
   }
 }
 
-/*@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
   main {
     max-width: 70%;
     margin: auto;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
