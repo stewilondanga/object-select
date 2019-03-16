@@ -125,7 +125,7 @@ footer {
   cursor: pointer;
 }
 
-/*.next,
+.next,
 .reset {
   border-radius: 10px;
   border: none;
@@ -137,7 +137,7 @@ footer {
   color: #000;
 }
 
-.reset {
+/*.reset {
   background-color: #03698b;
   color: #fff;
 }
