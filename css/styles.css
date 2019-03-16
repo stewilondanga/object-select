@@ -203,7 +203,7 @@ footer {
   border-color: #929292;
 }
 
-/*.control-buttons {
+.control-buttons {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
