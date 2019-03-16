@@ -31,14 +31,14 @@ const gameDescriptions = {
       ],
       rightchoice: [false, false, false, true]
     },
-    /*      gameQuiz1: {
-            option: [
-              'const fellowshipMembers <wbr>= document.querySelectorAll<wbr>("#fellowship-member"); ',
-              'const fellowshipMembers<wbr> = document.getElementsBy<wbr>TagName("span");',
-              'const fellowshipMembers<wbr> = document.querySelectorAll<wbr>(".fellowship-member");',
-              'const fellowshipMembers<wbr> = document.querySelector<wbr>(".fellowship-member");'
-            ],
-            solutions: [
+    gameQuiz1: {
+      option: [
+        'const fellowshipMembers <wbr>= document.querySelectorAll<wbr>("#fellowship-member"); ',
+        'const fellowshipMembers<wbr> = document.getElementsBy<wbr>TagName("span");',
+        'const fellowshipMembers<wbr> = document.querySelectorAll<wbr>(".fellowship-member");',
+        'const fellowshipMembers<wbr> = document.querySelector<wbr>(".fellowship-member");'
+      ],
+      /*      solutions: [
               "(Is that the simble of class? Hum...Sauron is looking backward, giving you the cold shoulders. Find a spell that select the forementioned class!)",
               '(This spell would select all spans, but we need only that with the class of "fellowship-member", if Sauron had had hands he would have bite his nails from the nervous)',
               '("Because you are a jolly good fellow, for you are a jolly good fellow and so say all of us, and so say all of us!" Good Job! The orcs are playing in tune for your wise choice and so is Sauron!")',
