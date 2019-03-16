@@ -37,13 +37,13 @@ a {
   text-decoration: none;
 }
 
-/*a:focus,
+a:focus,
 a:hover {
   color: #03698b;
   text-decoration: underline;
 }
 
-header {
+/*header {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
