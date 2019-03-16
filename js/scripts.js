@@ -84,12 +84,12 @@ const gameOptions = document.querySelectorAll(".game-options");
 const description = document.querySelector(".game-description");
 //Select the button for the "next" quiz entry
 const nextButton = document.querySelector(".next");
-/*
+
 // The counter for the 4 quizzes (from 0 to 3) that is used to initialize the game
 let index = 0;
 
 //Start the game
-createGame(index);
+/*createGame(index);
 
 //Generate the Quiz and use the gameDescription object properties to build quiz and answers
 function createGame(index) {
