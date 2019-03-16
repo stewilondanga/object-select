@@ -32,12 +32,12 @@ img {
   height: auto;
 }
 
-/*a {
+a {
   color: #ca0000;
   text-decoration: none;
 }
 
-a:focus,
+/*a:focus,
 a:hover {
   color: #03698b;
   text-decoration: underline;
