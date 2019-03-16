@@ -1,4 +1,10 @@
-body {
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +25,213 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.3em;
+  transition: all 0.4s ease-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #ca0000;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #03698b;
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1,
+h2 {
+  font-family: "Bahiana", cursive;
+  text-align: center;
+  color: #ca0000;
+}
+
+h2 {
+  margin: 0.3em;
+}
+
+footer {
+  padding: 8em 1em 1em 1em;
+  font-size: 1em;
+}
+
+/* ---Game --- */
+/*.presentation {
+  padding: 0 0.5em;
+}
+
+#middle-earth {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1em;
+  margin: 0.3em;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.game-list {
+  display: flex;
+  flex-flow: column wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.game-description {
+  background-color: #03698b;
+  color: #fff;
+  padding: 1em;
+}
+
+.solution {
+  margin: 1em 0;
+  display: none;
+  background-color: #03698b;
+  color: #fff;
+  padding: 0.3em;
+  border-radius: 10px;
+}
+
+.game-options {
+  padding: 1em;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.next,
+.reset {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 6px #dfdfdf;
+  padding: 1em;
+  font-family: inherit;
+  width: 250px;
+  margin: 1em auto;
+  color: #000;
+}
+
+.reset {
+  background-color: #03698b;
+  color: #fff;
+}
+
+.next {
+  background-color: #ca0000;
+}
+
+.next:disabled {
+  border-color: darkgray;
+  background-color: #dfdfdf;
+  color: darkgrey;
+}
+
+.middle-earth {
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.middle-earth-color {
+  border-color: #ca0000;
+}
+
+.fellowship-member {
+  display: inline;
+}
+
+.members {
+  font-weight: bold;
+  color: #ca0000;
+}
+
+#rightchoise span {
+  background-color: #630404;
+}
+
+.description-red {
+  background-color: #630404;
+}
+
+.option-blue {
+  border-color: #03698b;
+}
+
+.option-red {
+  border-color: #630404;
+}
+
+.colorful-em {
+  color: #138cb4;
+  font-size: bold;
+}
+
+.sauron-win {
+  background-color: #000;
+  color: #fff;
+}
+
+.ending {
+  background-color: #dfdfdf;
+  cursor: initial;
+  color: #929292;
+  border-color: #929292;
+}
+
+.control-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* --- Media Query --- */
+/*@media screen and (min-width: 500px) {
+  .next,
+  .reset {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    max-width: 70%;
+    margin: auto;
+  }
 }
 
 .containers {
