@@ -55,12 +55,12 @@ main {
   flex-flow: column wrap;
 }
 
-/*section {
+section {
   display: flex;
   flex-flow: column wrap;
 }
 
-h1,
+/*h1,
 h2 {
   font-family: "Bahiana", cursive;
   text-align: center;
