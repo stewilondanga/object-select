@@ -134,51 +134,51 @@ function showSolution(e) {
       v.classList.add("ending");
     });
   }
-  /*
-    if (target.id === "rightchoise") {
-      target.classList.add("option-red");
-      // Change middle-earth text section styles depending on the index number
-      switch (index) {
-        case 0:
-          const middleEarth = document.querySelector("#middle-earth");
-          middleEarth.classList.add("middle-earth-color");
-          break;
 
-        case 1:
-          const members = document.querySelectorAll(".fellowship-member");
-          members.forEach(v => {
-            v.classList.add("members");
-          });
-          break;
+  if (target.id === "rightchoise") {
+    target.classList.add("option-red");
+    // Change middle-earth text section styles depending on the index number
+    switch (index) {
+      case 0:
+        const middleEarth = document.querySelector("#middle-earth");
+        middleEarth.classList.add("middle-earth-color");
+        break;
 
-        case 2:
-          const ring = document.querySelectorAll("em");
-          ring.forEach(v => {
-            v.classList.add("colorful-em");
-          });
-          break;
+      case 1:
+        const members = document.querySelectorAll(".fellowship-member");
+        members.forEach(v => {
+          v.classList.add("members");
+        });
+        break;
 
-        case 3:
-          const sauronWin = document.body;
-          sauronWin.classList.add("sauron-win");
-          const image = document.querySelector(".sauron-img");
-          image.setAttribute(
-            "src",
-            "https://s19.postimg.cc/bg0b9a8yb/sauronwhite.png"
-          );
-          gameOptions.forEach(v => {
-            v.removeEventListener("click", showSolution);
-            v.classList.add("ending");
-          });
-          break;
-      }
-      if (index !== 3) {
-        nextButton.removeAttribute("disabled");
-        nextButton.addEventListener("click", showQuiz);
-      }
+      case 2:
+        const ring = document.querySelectorAll("em");
+        ring.forEach(v => {
+          v.classList.add("colorful-em");
+        });
+        break;
+
+      case 3:
+        const sauronWin = document.body;
+        sauronWin.classList.add("sauron-win");
+        const image = document.querySelector(".sauron-img");
+        image.setAttribute(
+          "src",
+          "https://s19.postimg.cc/bg0b9a8yb/sauronwhite.png"
+        );
+        gameOptions.forEach(v => {
+          v.removeEventListener("click", showSolution);
+          v.classList.add("ending");
+        });
+        break;
+    }
+    if (index !== 3) {
+      nextButton.removeAttribute("disabled");
+      nextButton.addEventListener("click", showQuiz);
     }
   }
-
+}
+/*
   //Switch to the next quiz section
   function showQuiz() {
     index += 1;
