@@ -61,14 +61,14 @@ const gameDescriptions = {
       ],
       rightchoice: [true, false, false, false]
     },
-    /*      gameQuiz3: {
-            option: [
-              'const frodoBaggins<wbr> = document.getElementsBy<wbr>TagName("i")',
-              'const frodoBaggins <wbr>= document.querySelector<wbr>("baggins");',
-              'const frodoBaggins<wbr> = document.getElementBy<wbr>Id("baggins");',
-              'const frodoBaggings<wbr> = document.querySelector<wbr>All("#baggins");'
-            ],
-            solutions: [
+    gameQuiz3: {
+      option: [
+        'const frodoBaggins<wbr> = document.getElementsBy<wbr>TagName("i")',
+        'const frodoBaggins <wbr>= document.querySelector<wbr>("baggins");',
+        'const frodoBaggins<wbr> = document.getElementBy<wbr>Id("baggins");',
+        'const frodoBaggings<wbr> = document.querySelector<wbr>All("#baggins");'
+      ],
+      /*      solutions: [
               "(NO! This would select all <i> tag not only the one with the id of baggings, Frodo had launched the ring in the lava, it's too late! Sauron is defeated!)",
               "(ARRGGGGGGGGGHH! You needed the hash sign (#), Frodo made it! He destroyed the ring. Sauron dissolves in a bursting flame)",
               "(YES! YOU DID IT! SAURON WON! The middle-earth is now destined to a fate of darkness and sorrow in which you will serve Sauron for the rest of the Eternity. Congrats on your new endless journey!)",
