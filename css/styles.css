@@ -142,11 +142,11 @@ footer {
   color: #fff;
 }
 
-/*.next {
+.next {
   background-color: #ca0000;
 }
 
-.next:disabled {
+/*.next:disabled {
   border-color: darkgray;
   background-color: #dfdfdf;
   color: darkgrey;
