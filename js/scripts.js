@@ -83,7 +83,7 @@ const gameOptions = document.querySelectorAll(".game-options");
 //Select the p that contains the quiz instruction
 const description = document.querySelector(".game-description");
 //Select the button for the "next" quiz entry
-/*const nextButton = document.querySelector(".next");
+const nextButton = document.querySelector(".next");
 /*
 // The counter for the 4 quizzes (from 0 to 3) that is used to initialize the game
 let index = 0;
