@@ -146,13 +146,13 @@ footer {
   background-color: #ca0000;
 }
 
-/*.next:disabled {
+.next:disabled {
   border-color: darkgray;
   background-color: #dfdfdf;
   color: darkgrey;
 }
 
-.middle-earth {
+/*.middle-earth {
   border: 2px solid #000;
   border-radius: 10px;
 }
