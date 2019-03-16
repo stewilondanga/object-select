@@ -165,12 +165,12 @@ footer {
   display: inline;
 }
 
-/*.members {
+.members {
   font-weight: bold;
   color: #ca0000;
 }
 
-#rightchoise span {
+/*#rightchoise span {
   background-color: #630404;
 }
 
