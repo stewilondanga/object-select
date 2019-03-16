@@ -192,37 +192,37 @@ function showQuiz() {
   description.classList.toggle("description-red");
   createGame(index);
 }
-/*
-  //Set an event listener on the reset button
-  const reset = document.querySelector(".reset");
 
-  reset.addEventListener("click", resetGame);
+//Set an event listener on the reset button
+const reset = document.querySelector(".reset");
 
-  //When reset button is clicked restart the game and remove all styles on the middle-earth tect section
-  function resetGame() {
-    index = 0;
+reset.addEventListener("click", resetGame);
 
-    document.body.classList.remove("sauron-win");
-    gameOptions.forEach(v => {
-      v.classList.remove("ending");
-      v.classList.remove("option-blue");
-      v.classList.remove("option-red");
-    });
+//When reset button is clicked restart the game and remove all styles on the middle-earth tect section
+function resetGame() {
+  index = 0;
 
-    const image = document.querySelector(".sauron-img");
-    image.setAttribute("src", "https://s19.postimg.cc/3n9nhbaoz/sauron.png");
+  document.body.classList.remove("sauron-win");
+  gameOptions.forEach(v => {
+    v.classList.remove("ending");
+    v.classList.remove("option-blue");
+    v.classList.remove("option-red");
+  });
 
-    const middleEarth = document.querySelector("#middle-earth");
-    middleEarth.classList.remove("middle-earth-color");
+  const image = document.querySelector(".sauron-img");
+  image.setAttribute("src", "https://s19.postimg.cc/3n9nhbaoz/sauron.png");
 
-    const members = document.querySelectorAll(".fellowship-member");
-    members.forEach(v => {
-      v.classList.remove("members");
-    });
+  const middleEarth = document.querySelector("#middle-earth");
+  middleEarth.classList.remove("middle-earth-color");
 
-    const ring = document.querySelectorAll("em");
-    ring.forEach(v => {
-      v.classList.remove("colorful-em");
-    });
-    createGame(index);
-  }
+  const members = document.querySelectorAll(".fellowship-member");
+  members.forEach(v => {
+    v.classList.remove("members");
+  });
+
+  const ring = document.querySelectorAll("em");
+  ring.forEach(v => {
+    v.classList.remove("colorful-em");
+  });
+  createGame(index);
+}
