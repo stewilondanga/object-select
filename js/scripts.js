@@ -1,12 +1,12 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
-
+/*
 // This Object contains the game-description quizzes, and an object for each one of the 4 quizzes that contains: the possible choice options, the quiz solutions/explanations and an array of booleans that establish if the answer is the right one (true) or not (false).
 const gameDescriptions = {
   description: [
