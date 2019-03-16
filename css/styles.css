@@ -81,7 +81,7 @@ footer {
   padding: 0 0.5em;
 }
 
-/*#middle-earth {
+#middle-earth {
   display: flex;
   flex-flow: row wrap;
   padding: 1em;
@@ -89,7 +89,7 @@ footer {
   position: relative;
 }
 
-.overlay {
+/*.overlay {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
 }
