@@ -108,7 +108,7 @@ footer {
   padding: 1em;
 }
 
-/*.solution {
+.solution {
   margin: 1em 0;
   display: none;
   background-color: #03698b;
@@ -117,7 +117,7 @@ footer {
   border-radius: 10px;
 }
 
-.game-options {
+/*.game-options {
   padding: 1em;
   border: 2px solid #000;
   border-radius: 10px;
