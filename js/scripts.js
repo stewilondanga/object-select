@@ -178,21 +178,21 @@ function showSolution(e) {
     }
   }
 }
+
+//Switch to the next quiz section
+function showQuiz() {
+  index += 1;
+
+  gameOptions.forEach(v => {
+    v.classList.remove("option-blue");
+    v.classList.remove("option-red");
+  });
+  nextButton.removeEventListener("click", showQuiz);
+  nextButton.setAttribute("disabled", true);
+  description.classList.toggle("description-red");
+  createGame(index);
+}
 /*
-  //Switch to the next quiz section
-  function showQuiz() {
-    index += 1;
-
-    gameOptions.forEach(v => {
-      v.classList.remove("option-blue");
-      v.classList.remove("option-red");
-    });
-    nextButton.removeEventListener("click", showQuiz);
-    nextButton.setAttribute("disabled", true);
-    description.classList.toggle("description-red");
-    createGame(index);
-  }
-
   //Set an event listener on the reset button
   const reset = document.querySelector(".reset");
 
