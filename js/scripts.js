@@ -89,10 +89,10 @@ const nextButton = document.querySelector(".next");
 let index = 0;
 
 //Start the game
-/*createGame(index);
+createGame(index);
 
 //Generate the Quiz and use the gameDescription object properties to build quiz and answers
-function createGame(index) {
+/*function createGame(index) {
   //Change the quiz text description
   description.textContent = gameDescriptions.description[index];
   //Create all the 4 possible answers
