@@ -89,12 +89,12 @@ footer {
   position: relative;
 }
 
-/*.overlay {
+.overlay {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.game-list {
+/*.game-list {
   display: flex;
   flex-flow: column wrap;
   list-style-type: none;
