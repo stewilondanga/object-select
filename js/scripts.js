@@ -46,14 +46,14 @@ const gameDescriptions = {
       ],
       rightchoice: [false, false, true, false]
     },
-    /*      gameQuiz2: {
-            option: [
-              'const powerfullArtifact <wbr>= document.getElementsBy<wbr>TagName("em");',
-              'const powerfullArtifact <wbr>= document.getElementBy<wbr>TagName("em");',
-              'const powerfullArtifact <wbr>= document.querySelector<wbr>All("ems");',
-              'const powerfullArtifact <wbr> = document.querySelector(".em");'
-            ],
-            solutions: [
+    gameQuiz2: {
+      option: [
+        'const powerfullArtifact <wbr>= document.getElementsBy<wbr>TagName("em");',
+        'const powerfullArtifact <wbr>= document.getElementBy<wbr>TagName("em");',
+        'const powerfullArtifact <wbr>= document.querySelector<wbr>All("ems");',
+        'const powerfullArtifact <wbr> = document.querySelector(".em");'
+      ],
+      /*      solutions: [
               "(Yup! Sauron is so proud of your spell skills that if he had had hands would have given you the high-five! Well done!)",
               "(Ah! That's a vile trick of that nasty fellowship, there's an 's' missing. Sauron snarls even if he has no mouth!)",
               "(Hum... you need to find all the em, but you won't write it like that! Sauron is burning red with fury! Hurry choice the right spell!)",
