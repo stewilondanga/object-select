@@ -50,12 +50,12 @@ header {
   text-align: center;
 }
 
-/*main {
+main {
   display: flex;
   flex-flow: column wrap;
 }
 
-section {
+/*section {
   display: flex;
   flex-flow: column wrap;
 }
