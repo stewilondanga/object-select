@@ -60,14 +60,14 @@ section {
   flex-flow: column wrap;
 }
 
-/*h1,
+h1,
 h2 {
   font-family: "Bahiana", cursive;
   text-align: center;
   color: #ca0000;
 }
 
-h2 {
+/*h2 {
   margin: 0.3em;
 }
 
