@@ -119,7 +119,7 @@ function createGame(index) {
     gameOptions[i].addEventListener("click", showSolution);
   }
 }
-/*
+
 //Show the span with the quiz choice explanation when one of the choices is clicked
 function showSolution(e) {
   const target = e.target;
@@ -134,95 +134,95 @@ function showSolution(e) {
       v.classList.add("ending");
     });
   }
+  /*
+    if (target.id === "rightchoise") {
+      target.classList.add("option-red");
+      // Change middle-earth text section styles depending on the index number
+      switch (index) {
+        case 0:
+          const middleEarth = document.querySelector("#middle-earth");
+          middleEarth.classList.add("middle-earth-color");
+          break;
 
-  if (target.id === "rightchoise") {
-    target.classList.add("option-red");
-    // Change middle-earth text section styles depending on the index number
-    switch (index) {
-      case 0:
-        const middleEarth = document.querySelector("#middle-earth");
-        middleEarth.classList.add("middle-earth-color");
-        break;
+        case 1:
+          const members = document.querySelectorAll(".fellowship-member");
+          members.forEach(v => {
+            v.classList.add("members");
+          });
+          break;
 
-      case 1:
-        const members = document.querySelectorAll(".fellowship-member");
-        members.forEach(v => {
-          v.classList.add("members");
-        });
-        break;
+        case 2:
+          const ring = document.querySelectorAll("em");
+          ring.forEach(v => {
+            v.classList.add("colorful-em");
+          });
+          break;
 
-      case 2:
-        const ring = document.querySelectorAll("em");
-        ring.forEach(v => {
-          v.classList.add("colorful-em");
-        });
-        break;
-
-      case 3:
-        const sauronWin = document.body;
-        sauronWin.classList.add("sauron-win");
-        const image = document.querySelector(".sauron-img");
-        image.setAttribute(
-          "src",
-          "https://s19.postimg.cc/bg0b9a8yb/sauronwhite.png"
-        );
-        gameOptions.forEach(v => {
-          v.removeEventListener("click", showSolution);
-          v.classList.add("ending");
-        });
-        break;
-    }
-    if (index !== 3) {
-      nextButton.removeAttribute("disabled");
-      nextButton.addEventListener("click", showQuiz);
+        case 3:
+          const sauronWin = document.body;
+          sauronWin.classList.add("sauron-win");
+          const image = document.querySelector(".sauron-img");
+          image.setAttribute(
+            "src",
+            "https://s19.postimg.cc/bg0b9a8yb/sauronwhite.png"
+          );
+          gameOptions.forEach(v => {
+            v.removeEventListener("click", showSolution);
+            v.classList.add("ending");
+          });
+          break;
+      }
+      if (index !== 3) {
+        nextButton.removeAttribute("disabled");
+        nextButton.addEventListener("click", showQuiz);
+      }
     }
   }
-}
 
-//Switch to the next quiz section
-function showQuiz() {
-  index += 1;
+  //Switch to the next quiz section
+  function showQuiz() {
+    index += 1;
 
-  gameOptions.forEach(v => {
-    v.classList.remove("option-blue");
-    v.classList.remove("option-red");
-  });
-  nextButton.removeEventListener("click", showQuiz);
-  nextButton.setAttribute("disabled", true);
-  description.classList.toggle("description-red");
-  createGame(index);
-}
+    gameOptions.forEach(v => {
+      v.classList.remove("option-blue");
+      v.classList.remove("option-red");
+    });
+    nextButton.removeEventListener("click", showQuiz);
+    nextButton.setAttribute("disabled", true);
+    description.classList.toggle("description-red");
+    createGame(index);
+  }
 
-//Set an event listener on the reset button
-const reset = document.querySelector(".reset");
+  //Set an event listener on the reset button
+  const reset = document.querySelector(".reset");
 
-reset.addEventListener("click", resetGame);
+  reset.addEventListener("click", resetGame);
 
-//When reset button is clicked restart the game and remove all styles on the middle-earth tect section
-function resetGame() {
-  index = 0;
+  //When reset button is clicked restart the game and remove all styles on the middle-earth tect section
+  function resetGame() {
+    index = 0;
 
-  document.body.classList.remove("sauron-win");
-  gameOptions.forEach(v => {
-    v.classList.remove("ending");
-    v.classList.remove("option-blue");
-    v.classList.remove("option-red");
-  });
+    document.body.classList.remove("sauron-win");
+    gameOptions.forEach(v => {
+      v.classList.remove("ending");
+      v.classList.remove("option-blue");
+      v.classList.remove("option-red");
+    });
 
-  const image = document.querySelector(".sauron-img");
-  image.setAttribute("src", "https://s19.postimg.cc/3n9nhbaoz/sauron.png");
+    const image = document.querySelector(".sauron-img");
+    image.setAttribute("src", "https://s19.postimg.cc/3n9nhbaoz/sauron.png");
 
-  const middleEarth = document.querySelector("#middle-earth");
-  middleEarth.classList.remove("middle-earth-color");
+    const middleEarth = document.querySelector("#middle-earth");
+    middleEarth.classList.remove("middle-earth-color");
 
-  const members = document.querySelectorAll(".fellowship-member");
-  members.forEach(v => {
-    v.classList.remove("members");
-  });
+    const members = document.querySelectorAll(".fellowship-member");
+    members.forEach(v => {
+      v.classList.remove("members");
+    });
 
-  const ring = document.querySelectorAll("em");
-  ring.forEach(v => {
-    v.classList.remove("colorful-em");
-  });
-  createGame(index);
-}
+    const ring = document.querySelectorAll("em");
+    ring.forEach(v => {
+      v.classList.remove("colorful-em");
+    });
+    createGame(index);
+  }
