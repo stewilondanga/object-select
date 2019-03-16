@@ -92,7 +92,7 @@ let index = 0;
 createGame(index);
 
 //Generate the Quiz and use the gameDescription object properties to build quiz and answers
-/*function createGame(index) {
+function createGame(index) {
   //Change the quiz text description
   description.textContent = gameDescriptions.description[index];
   //Create all the 4 possible answers
@@ -119,7 +119,7 @@ createGame(index);
     gameOptions[i].addEventListener("click", showSolution);
   }
 }
-
+/*
 //Show the span with the quiz choice explanation when one of the choices is clicked
 function showSolution(e) {
   const target = e.target;
