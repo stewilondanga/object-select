@@ -117,7 +117,7 @@ footer {
   border-radius: 10px;
 }
 
-/*.game-options {
+.game-options {
   padding: 1em;
   border: 2px solid #000;
   border-radius: 10px;
@@ -125,7 +125,7 @@ footer {
   cursor: pointer;
 }
 
-.next,
+/*.next,
 .reset {
   border-radius: 10px;
   border: none;
