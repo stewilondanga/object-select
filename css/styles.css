@@ -210,14 +210,15 @@ footer {
 }
 
 /* --- Media Query --- */
-/*@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
+
   .next,
   .reset {
     margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1000px) {
+/*@media screen and (min-width: 1000px) {
   main {
     max-width: 70%;
     margin: auto;
