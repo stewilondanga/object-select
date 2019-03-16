@@ -23,15 +23,15 @@ const gameDescriptions = {
         'const middleEarth <wbr>= document.querySelector<wbr>("middle-earth");',
         'const middleEarth<wbr> = document.getElementBy<wbr>Id("middle-earth");'
       ],
-      /*      solutions: [
-              '("#middle-earth" is not a class! Sauron is very uspet with your choice! Choose a better spell!)',
-              "(You don 't need the hash sign with this method! Sauron howls in the dark for the frustration! Use this spell properly!)",
-              "(No way! This method needs the complete selector, so if you are searching an id you need to include the hash sign (#). If Sauron had had feet, he would had stomped them on the ground angrily!)",
-              "(HAHAH! Sauron is delighted, you did magnificently! The middle-earth is ready to be searched now! Could you think of another spell you could have used?)"
-            ],
-            rightchoice: [false, false, false, true]
-          },
-          gameQuiz1: {
+      solutions: [
+        '("#middle-earth" is not a class! Sauron is very uspet with your choice! Choose a better spell!)',
+        "(You don 't need the hash sign with this method! Sauron howls in the dark for the frustration! Use this spell properly!)",
+        "(No way! This method needs the complete selector, so if you are searching an id you need to include the hash sign (#). If Sauron had had feet, he would had stomped them on the ground angrily!)",
+        "(HAHAH! Sauron is delighted, you did magnificently! The middle-earth is ready to be searched now! Could you think of another spell you could have used?)"
+      ],
+      rightchoice: [false, false, false, true]
+    },
+    /*      gameQuiz1: {
             option: [
               'const fellowshipMembers <wbr>= document.querySelectorAll<wbr>("#fellowship-member"); ',
               'const fellowshipMembers<wbr> = document.getElementsBy<wbr>TagName("span");',
