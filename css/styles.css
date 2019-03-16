@@ -94,7 +94,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/*.game-list {
+.game-list {
   display: flex;
   flex-flow: column wrap;
   list-style-type: none;
@@ -102,7 +102,7 @@ footer {
   padding: 0.5em;
 }
 
-.game-description {
+/*.game-description {
   background-color: #03698b;
   color: #fff;
   padding: 1em;
