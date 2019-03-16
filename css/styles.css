@@ -102,13 +102,13 @@ footer {
   padding: 0.5em;
 }
 
-/*.game-description {
+.game-description {
   background-color: #03698b;
   color: #fff;
   padding: 1em;
 }
 
-.solution {
+/*.solution {
   margin: 1em 0;
   display: none;
   background-color: #03698b;
