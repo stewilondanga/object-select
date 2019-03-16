@@ -191,12 +191,12 @@ footer {
   font-size: bold;
 }
 
-/*.sauron-win {
+.sauron-win {
   background-color: #000;
   color: #fff;
 }
 
-.ending {
+/*.ending {
   background-color: #dfdfdf;
   cursor: initial;
   color: #929292;
