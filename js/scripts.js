@@ -53,15 +53,15 @@ const gameDescriptions = {
         'const powerfullArtifact <wbr>= document.querySelector<wbr>All("ems");',
         'const powerfullArtifact <wbr> = document.querySelector(".em");'
       ],
-      /*      solutions: [
-              "(Yup! Sauron is so proud of your spell skills that if he had had hands would have given you the high-five! Well done!)",
-              "(Ah! That's a vile trick of that nasty fellowship, there's an 's' missing. Sauron snarls even if he has no mouth!)",
-              "(Hum... you need to find all the em, but you won't write it like that! Sauron is burning red with fury! Hurry choice the right spell!)",
-              "(Well, em is a tag not a class! Sauron is on the verge of a seizure, hurry find the correct answer!)"
-            ],
-            rightchoice: [true, false, false, false]
-          },
-          gameQuiz3: {
+      solutions: [
+        "(Yup! Sauron is so proud of your spell skills that if he had had hands would have given you the high-five! Well done!)",
+        "(Ah! That's a vile trick of that nasty fellowship, there's an 's' missing. Sauron snarls even if he has no mouth!)",
+        "(Hum... you need to find all the em, but you won't write it like that! Sauron is burning red with fury! Hurry choice the right spell!)",
+        "(Well, em is a tag not a class! Sauron is on the verge of a seizure, hurry find the correct answer!)"
+      ],
+      rightchoice: [true, false, false, false]
+    },
+    /*      gameQuiz3: {
             option: [
               'const frodoBaggins<wbr> = document.getElementsBy<wbr>TagName("i")',
               'const frodoBaggins <wbr>= document.querySelector<wbr>("baggins");',
